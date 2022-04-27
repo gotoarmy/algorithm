@@ -15,25 +15,19 @@ public class Main {
             index++;
         }
         //자신의 앞수보다 작으면  출력
-        int prev_num =0;
+        int visiblecount =0;
         index =0;
-        boolean isnew =true;
+        int prev_num =0;
         for (int z :inte)
         {
-            if (isnew)
-            {
+            if(prev_num < z) {
+                visiblecount++;
                 prev_num=z;
-                isnew=false;
-                System.out.print(z+" ");
-                continue;
             }
-            if(isnew==false && z>prev_num)
-            {
-                System.out.print(z+" ");
-            }
-            prev_num=z;
+
 
         }
+        System.out.print(visiblecount);
 
         return ;
     }
