@@ -9,7 +9,14 @@ public class Main {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         int n = in.nextInt();
-        primenumber prime =new primenumber();
-        prime.solu(n);
+        reverseprime prime =new reverseprime();
+        ArrayList<Integer> A = new ArrayList<>();
+        int index =0;
+        while (index < n)
+        {
+            A.add(in.nextInt());
+            index++;
+        }
+        prime.solu(n,A);
     }
 }
