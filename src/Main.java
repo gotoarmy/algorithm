@@ -9,14 +9,14 @@ public class Main {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         int n = in.nextInt();
-        score core =new score();
+        grade grade =new grade();
         ArrayList<Integer> A = new ArrayList<>();
         int index =0;
-        while (index < n)
+        while(index <n)
         {
             A.add(in.nextInt());
             index++;
         }
-        core.solu(n,A);
+        grade.solu(n,A);
     }
 }
