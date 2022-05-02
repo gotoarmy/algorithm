@@ -9,14 +9,15 @@ public class Main {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         int n = in.nextInt();
-        bingosum bin =new bingosum();
-        ArrayList<Integer> A = new ArrayList<>();
-        int index =0;
-        while(index <n*n)
+        tablebingosum table =new tablebingosum();
+        int[][] arr =new int[n][n];
+        for(int row =0; row<n; row++)
         {
-            A.add(in.nextInt());
-            index++;
+            for(int col =0; col<n; col++)
+            {
+                arr[row][col] = in.nextInt();
+            }
         }
-        bin.solu(n,A);
+        table.solu(n,arr);
     }
 }
