@@ -9,14 +9,14 @@ public class Main {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         int n = in.nextInt();
-        grade grade =new grade();
+        bingosum bin =new bingosum();
         ArrayList<Integer> A = new ArrayList<>();
         int index =0;
-        while(index <n)
+        while(index <n*n)
         {
             A.add(in.nextInt());
             index++;
         }
-        grade.solu(n,A);
+        bin.solu(n,A);
     }
 }

@@ -11,7 +11,7 @@ public class eratos {
 
             }
         }
-
               System.out.print(answer);
+
     }
 }
