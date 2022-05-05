@@ -8,19 +8,23 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
+        arraycmp gone =new arraycmp();
         int n = in.nextInt();
-        leader sixgrade =new leader();
-        int[][] table =new int[n][5];
-        for (int i=0; i<n; i++)
+        int[] one =new int[n];
+        int index =0;
+        while(index <n)
         {
-            for (int j =0; j<5; j++)
-            {
-
-                    table[i][j] =in.nextInt();
-
-            }
+            one[index] =in.nextInt();
+            index++;
         }
-
-        sixgrade.solu(n,table);
+        int m = in.nextInt();
+        int[] two =new int[m];
+        index =0;
+        while(index <m)
+        {
+            two[index] = in.nextInt();
+            index++;
+        }
+        gone.solu(one,two);
     }
 }
