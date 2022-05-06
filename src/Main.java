@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
-        arraycmp gone =new arraycmp();
+        comele gome =new comele();
         int n = in.nextInt();
         int[] one =new int[n];
         int index =0;
@@ -24,7 +24,8 @@ public class Main {
         {
             two[index] = in.nextInt();
             index++;
+
         }
-        gone.solu(one,two);
+        gome.solu(one,two);
     }
 }
