@@ -8,24 +8,18 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
-        comele gome =new comele();
-        int n = in.nextInt();
-        int[] one =new int[n];
-        int index =0;
-        while(index <n)
+        mentoring game =new mentoring();
+        int n = in.nextInt();  //컬럼
+        int m = in.nextInt(); //로우
+        int[][] table =new int[m][n];
+        for(int i=0;i<m;i++)
         {
-            one[index] =in.nextInt();
-            index++;
+            for (int j =0;j<n;j++)
+            {
+                table[i][j] =in.nextInt();
+            }
         }
-        int m = in.nextInt();
-        int[] two =new int[m];
-        index =0;
-        while(index <m)
-        {
-            two[index] = in.nextInt();
-            index++;
+        game.solu(table,m,n);
 
-        }
-        gome.solu(one,two);
     }
 }
