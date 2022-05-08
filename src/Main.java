@@ -8,18 +8,17 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
-        mentoring game =new mentoring();
-        int n = in.nextInt();  //컬럼
-        int m = in.nextInt(); //로우
-        int[][] table =new int[m][n];
-        for(int i=0;i<m;i++)
+        maxprofit max = new maxprofit();
+        int day=0;
+        int iConsecutive_day= 0;
+        day = in.nextInt();
+        iConsecutive_day =in.nextInt();
+        int[] profit_record =new int[day];
+        int i =0;
+        while(i<day)
         {
-            for (int j =0;j<n;j++)
-            {
-                table[i][j] =in.nextInt();
-            }
+            profit_record[i++]= in.nextInt();
         }
-        game.solu(table,m,n);
-
+        max.solu(profit_record,day,iConsecutive_day);
     }
 }
