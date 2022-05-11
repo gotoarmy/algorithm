@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class arraycmp {
+class 배열합치기투포인터 {
     public void solu(int[] a,int[] b)
     {
         int n = a.length;

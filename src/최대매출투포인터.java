@@ -1,4 +1,4 @@
-class maxprofit {
+class 최대매출투포인터 {
     public void solu(int[] profit_record, int day, int iConsecutive_day)
     {
         int p1 =0;

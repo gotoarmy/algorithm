@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-class fibo {
+class 피보나치수열 {
     public void solu(int num)
     {
         ArrayList<Integer> A = new ArrayList<>();

@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class tablebingosum {
+public class 격자판최대합2차배열 {
     public void solu(int n,int[][] arr)
     {
         ArrayList<Integer> suma = new ArrayList<>();

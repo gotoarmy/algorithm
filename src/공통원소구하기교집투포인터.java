@@ -1,9 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
 
-class comelement {
+class 공통원소구하기교집투포인터 {
     public void solu(int[] a, int[] b) {
         ArrayList<Integer> answer = new ArrayList<>();
         Arrays.sort(a);

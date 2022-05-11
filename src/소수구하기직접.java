@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class primenumber {
+public class 소수구하기직접 {
     public void solu(int N)
     {
 

@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class bingosum {
+class 격자판최대합1차배열 {
 
     public void solu(int input, ArrayList<Integer> A)
     {

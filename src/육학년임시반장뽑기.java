@@ -1,8 +1,6 @@
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Arrays;
 
-class leader {
+class 육학년임시반장뽑기 {
 
     public void solu(int n, int[][] table)
     {

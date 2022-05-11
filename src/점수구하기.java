@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class score {
+class 점수구하기 {
     public void solu(int N, ArrayList<Integer> e)
     {
         //요소 접근 1이면 count+

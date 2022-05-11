@@ -1,7 +1,6 @@
 import java.util.ArrayList;
-import java.util.Scanner;
 
-public class reverseprime {
+public class 수를뒤집어소수임을확인 {
 
     public int getdigits(int N)
     {

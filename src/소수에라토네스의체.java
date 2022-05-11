@@ -1,4 +1,4 @@
-public class eratos {
+public class 소수에라토네스의체 {
     public void solu(int N) {
         int answer =0;
         int[] ch =new int[N+1];

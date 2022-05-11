@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class grade {
+class 등급구하기 {
 
     public void solu(int input, ArrayList<Integer> arr)
     { // input 만큼

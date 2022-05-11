@@ -1,7 +1,6 @@
-import java.lang.Object;
 import java.util.Arrays;
 
-public class peak4D {
+public class 봉우리 {
     public boolean ispeak(int[][] a, int i,int j)
     {
         boolean b_peak= false;

@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-class twopointers {
+class 잘못이해한투포인터 {
     public void solu(int[] a, int[] b) {
         ArrayList<Integer> same = new ArrayList<>();
 

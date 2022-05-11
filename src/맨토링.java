@@ -1,8 +1,7 @@
-import javax.print.DocFlavor;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-class mentoring {
+class 맨토링 {
     public void solu(int[][] arr,int row,int col)
     {
         int mentor_count=0;

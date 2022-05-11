@@ -1,4 +1,4 @@
-public class sumofcon_num {
+public class 연속된수열의합투포인터 {
     public void solu(int N)
     {
          int p1=0;    //start pointer
