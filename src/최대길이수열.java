@@ -16,8 +16,8 @@ public class 최대길이수열 {
     boolean lastzero =false; //last제로로 부터 1이 몇개인지 세서 local_length에 넣어주어야함
     boolean findend=false; //true와 false일 경우 조작을 해주어야함
     public void solu(int[] arr, int n, int changecount) {
-        //14 2
-        //1 1 0 0 1 1 0 1 1 0 1 1 0 1
+        //20 2
+        //1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 0 1 1 0 1
         int local_length =0;
         int lastzerosave=0;
         while(p2 < n)
@@ -43,7 +43,7 @@ public class 최대길이수열 {
                         local_zerocount++;
                         p2++;
                     }
-                    else if(changecount ==local_zerocount)
+                    if(changecount ==local_zerocount)
                     {
                         local_length +=local_zerocount;
                         p2++;
