@@ -1,3 +1,5 @@
+package 배열;
+
 class areasumM {
     public void solu(int[] arr, int sum)
     {

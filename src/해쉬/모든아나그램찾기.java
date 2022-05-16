@@ -1,3 +1,5 @@
+package 해쉬;
+
 import java.util.HashMap;
 
 public class 모든아나그램찾기 {

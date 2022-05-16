@@ -1,18 +1,18 @@
-import java.util.HashMap;
-import java.util.Scanner;
-import java.util.ArrayList;
+package 해쉬;
 
-
-
+import java.util.*;
 
 
 public class Main {
     public static void main(String[] args) {
-        //AbaAeCe
-        //baeeACA
-        Scanner in = new Scanner(System.in);
-        String first= in.next();
-        String second= in.next();
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        int n=kb.nextInt();
+        int k=kb.nextInt();
+        int[] arr=new int[n];
+        for(int i=0; i<n; i++){
+            arr[i]=kb.nextInt();
+        }
 
     }
 }
