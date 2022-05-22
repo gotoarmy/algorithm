@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Main {
         public static void main(String[] args) {
             Scanner in = new Scanner(System.in);
-            int princess_num = in.nextInt();
-            int k =in.nextInt();
-            공주구하기 공주구하기 = new 공주구하기();
-            공주구하기.solu(princess_num,k);
+            String a =in.next();
+            String b =in.next();
+            교육과정설계 교육과정설계 = new 교육과정설계();
+            교육과정설계.solu(a,b);
         }
 }
 
