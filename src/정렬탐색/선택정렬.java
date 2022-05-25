@@ -24,15 +24,12 @@ class 선택정렬 {
             }
             int temp =arr.get(i);
             int index =i;
-            boolean changed=false;
             for(int j=i;j<arr.size()-1;j++)
             {
                if(min==arr.get(j+1)){
                    index =j+1;
-                   changed=true;
                }
                else {
-                   changed=false;
                }
             }
 

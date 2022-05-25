@@ -3,7 +3,7 @@ package 정렬탐색;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-    public class main {
+    public class Main {
         public static void main(String[] args) {
             Scanner kb = new Scanner(System.in);
             int n=kb.nextInt();
@@ -11,8 +11,8 @@ import java.util.Scanner;
             for(int i=0; i<n; i++){
                 answer.add(kb.nextInt());
             }
-            선택정렬 선택정렬 = new 선택정렬();
-            선택정렬.solu(answer,n);
+            버블소트 버블소트 = new 버블소트();
+            버블소트.solu(answer,n);
 
         }
     }
