@@ -11,8 +11,8 @@ import java.util.Scanner;
             for(int i=0; i<n; i++){
                 answer.add(kb.nextInt());
             }
-            버블소트 버블소트 = new 버블소트();
-            버블소트.solu(answer,n);
+            삽입정렬 삽입정렬 = new 삽입정렬();
+            삽입정렬.solu(answer,n);
 
         }
     }
