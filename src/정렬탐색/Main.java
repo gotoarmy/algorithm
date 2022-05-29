@@ -14,8 +14,8 @@ public class Main {
         for (int i = 0; i < size; i++){
             arrs[i]=kb.nextInt();
         }
-        중복확인 중복확인 = new 중복확인();
-        중복확인.solu(arrs,size);
+        장난꾸러기녀석 장난꾸러기녀석 = new 장난꾸러기녀석();
+        장난꾸러기녀석.solu(arrs,size);
 
     }
 }
