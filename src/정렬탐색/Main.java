@@ -14,8 +14,9 @@ public class Main {
         for(int i=0;i<size;i++){
             arr[i]=kb.nextInt();
         }
-        결정알고리즘 결정알고리즘 = new 결정알고리즘();
-        결정알고리즘.solu(arr,size,num);
+        Arrays.sort(arr);
+        마구간정하기 마구간정하기 = new 마구간정하기();
+        마구간정하기.solu(arr,size,num);
 
 
     }
