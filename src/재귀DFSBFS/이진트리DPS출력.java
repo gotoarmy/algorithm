@@ -24,8 +24,8 @@ class bitree{
         }
         else {
             //전위 후위 중위 스택을 그려보자
-            print(node.lt);
             System.out.print(node.value);
+            print(node.lt);
             print(node.rt);
         }
     }
