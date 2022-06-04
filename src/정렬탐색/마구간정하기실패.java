@@ -2,7 +2,7 @@ package 정렬탐색;
 
 import java.util.ArrayList;
 
-public class 마구간정하기 {
+public class 마구간정하기실패 {
     public void solu(int[] arr, int magu, int horse) {
         // 1 2 4 8 9
         //가장 가까운말의 거리가 최대값

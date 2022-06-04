@@ -1,8 +1,6 @@
 package 정렬탐색;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -15,7 +13,7 @@ public class Main {
             arr[i]=kb.nextInt();
         }
         Arrays.sort(arr);
-        마구간정하기 마구간정하기 = new 마구간정하기();
+        마구간정하기실패 마구간정하기 = new 마구간정하기실패();
         마구간정하기.solu(arr,size,num);
 
 

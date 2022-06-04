@@ -1,8 +1,7 @@
 package 해쉬;
-import java.util.ArrayList;
 import java.util.*;
 
-public class k번째로큰수 {
+public class k번째로큰수실패 {
     public int solu(int[] arr, int k, int n) {
         int answer = -1;
         TreeSet<Integer> Tset = new TreeSet<>(Collections.reverseOrder());
