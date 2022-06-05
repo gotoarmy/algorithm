@@ -4,7 +4,7 @@ import java.util.*;
 public class 부분집합구하기실패 {
     static class Aain {
         static int n;
-        static int[] ch;
+        static int ch[];
         public void DFS(int L){
             if(L==n+1){
                 String tmp="";
