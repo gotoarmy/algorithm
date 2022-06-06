@@ -4,24 +4,25 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 
-class node{
-    node back;
-    node front;
-    node five_walk;
-    int value;
 
-    public node(int value) {
-        this.value = value;
-    }
-}
-class tree{
-    node head;
-    int size;
-    int jumpcount;
-
-}
 
 class 송아지찾기 {
+    class node{
+        node back;
+        node front;
+        node five_walk;
+        int value;
+
+        public node(int value) {
+            this.value = value;
+        }
+    }
+    class tree{
+        node head;
+        int size;
+        int jumpcount;
+
+    }
     public int getMyposition() {
         return myposition;
     }
